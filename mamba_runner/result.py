@@ -52,8 +52,8 @@ class BlackMambaTestResult(result.TestResult):
                     self.stream.writeln(self._terminal.blue(klass))
 
                 for m in methods:
-                    secs, method, status = m.split('#')
-                    secs = float(secs)
+                    _secs, method, status = m.split('#')
+                    secs = float(_secs)
                     if secs >= 0.1 and secs < 0.5:
                         color = self._terminal.yellow
                     elif secs >= 0.5 and secs < 1:
@@ -61,9 +61,9 @@ class BlackMambaTestResult(result.TestResult):
                     elif secs >= 1:
                         color = self._terminal.bold_red
 
-                    secs = color("[{}s]".format(secs))
+                    _secs = color("[{}s]".format(_secs))
                     self.stream.writeln(
-                        "    {} ... {} {}".format(method, secs, status)
+                        "    {} ... {} {}".format(method, _secs, status)
                     )
             self.stream.writeln('')
 
