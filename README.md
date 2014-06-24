@@ -18,7 +18,11 @@ The purpose of this module is to make your tests as fast as the black mamba snak
 
 Before:
 
+![Before](https://github.com/mattack108/mamba-runner/raw/master/img/before_run.png)
+
 After:
+
+![After](https://github.com/mattack108/mamba-runner/raw/master/img/after_run.png)
 
 ### Try?
 
