@@ -12,7 +12,7 @@ This functionality [is missing](http://bugs.python.org/issue4080) from Python's
 `mamba-runner` is derived from [black mamba](http://en.wikipedia.org/wiki/Black_mamba) snake
 (don't click if you suffer to [ophidiophobia](http://en.wikipedia.org/wiki/Ophidiophobia)!).
 
-The purpose of this module is to make your tests as fast as the black mamba snake! ;-)
+This snake runs very fast so should your tests! ;-)
 
 ### See?
 
