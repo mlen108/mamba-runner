@@ -1,4 +1,4 @@
-## pymamba
+## mamba-runner
 
 How fast are your unittest tests? Time it and make it faster!
 
@@ -9,10 +9,10 @@ This functionality [is missing](http://bugs.python.org/issue4080) from Python's
 
 ### What?
 
-`pymamba` is derived from [black mamba](http://en.wikipedia.org/wiki/Black_mamba) snake
+`mamba-runner` is derived from [black mamba](http://en.wikipedia.org/wiki/Black_mamba) snake
 (don't click if you suffer to [ophidiophobia](http://en.wikipedia.org/wiki/Ophidiophobia)!).
 
-The purpose of this module is to make your tests as fast as the black mamba snake!
+The purpose of this module is to make your tests as fast as the black mamba snake! ;-)
 
 ### See?
 
@@ -22,18 +22,18 @@ After:
 
 ### Try?
 
-    pip install pymamba
+    pip install mamba-runner
 
 #### Django?
 
-Add the black mamba to your test runner:
+Add the `mamba-runner` to your test runner:
 
     from django.test.runner import DiscoverRunner  # Django1.6's default
-    from pymamba.django_runner import BlackMambaRunnerMixin
+    from mamba_runner.django_runner import BlackMambaRunnerMixin
 
     class MyTestRunner(BlackMambaRunnerMixin, DiscoverRunner):
        pass
 
 #### Other snake?
 
-Use `runner.BlackMambaTestRunner` instead of `unittest.TextTestRunner`.
+Use `mamba_runner.runner.BlackMambaTestRunner` instead of `unittest.TextTestRunner`.

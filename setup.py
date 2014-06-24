@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='pymamba',
+    name='mamba-runner',
     version='0.0.1',
-    description='Timing for unittest tests',
-    url='https://github.com/mattack108/pymamba',
+    description='Measure time execution for unittest tests',
+    url='https://github.com/mattack108/mamba-runner',
     author='Maciek Lenc',
     author_email='matt.lenc@gmail.com',
     license='MIT',
@@ -20,6 +20,6 @@ setup(
         'Topic :: Software Development :: Testing',
     ],
     install_requires=['blessings'],
-    keywords='unittest timing time',
+    keywords='unittest timing time mamba tests runner',
     packages=find_packages(),
 )
