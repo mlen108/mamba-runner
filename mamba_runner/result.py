@@ -61,7 +61,7 @@ class BlackMambaTestResult(result.TestResult):
                     elif secs >= 1:
                         color = self._terminal.bold_red
 
-                    secs = color("[{}s] ".format(secs))
+                    secs = color("[{}s]".format(secs))
                     self.stream.writeln(
                         "    {} ... {} {}".format(method, secs, status)
                     )
