@@ -77,7 +77,7 @@ class BlackMambaTestResult(result.TestResult):
 
         is_slow = run_time >= 0.1
         if is_slow:
-            run_time = "{0:.6f}".format(run_time)
+            run_time = "{0:.3f}".format(run_time)
             self._results += '{}#{}#{};'.format(
                 run_time, test._testMethodName, status)
 
