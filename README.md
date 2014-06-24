@@ -19,3 +19,21 @@ The purpose of this module is to make your tests as fast as the black mamba snak
 Before:
 
 After:
+
+### Try?
+
+    pip install pymamba
+
+#### Django?
+
+Add the black mamba to your test runner:
+
+    from django.test.runner import DiscoverRunner  # Django1.6's default
+    from pymamba.django_runner import BlackMambaRunnerMixin
+
+    class MyTestRunner(BlackMambaRunnerMixin, DiscoverRunner):
+       pass
+
+#### Other snake?
+
+Use `runner.BlackMambaTestRunner` instead of `unittest.TextTestRunner`.
