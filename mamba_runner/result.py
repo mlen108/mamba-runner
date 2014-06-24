@@ -54,7 +54,7 @@ class BlackMambaTestResult(result.TestResult):
                 for m in methods:
                     secs, method, status = m.split('#')
                     secs = float(secs)
-                    if secs >= 0.01 and secs < 0.5:
+                    if secs >= 0.1 and secs < 0.5:
                         color = self._terminal.yellow
                     elif secs >= 0.5 and secs < 1:
                         color = self._terminal.magenta
