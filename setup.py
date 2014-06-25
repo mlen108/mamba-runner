@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mamba-runner',
-    version='0.0.1',
+    version='0.0.2',
     description='Measure time execution for unittest tests',
     url='https://github.com/mattack108/mamba-runner',
     author='Maciek Lenc',
