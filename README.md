@@ -1,4 +1,4 @@
-## mamba-runner
+## mamba-runner [![Latest Version](https://pypip.in/version/mamba-runner/badge.png)](https://pypi.python.org/pypi/mamba-runner/) [![Downloads](https://pypip.in/download/mamba-runner/badge.png)](https://pypi.python.org/pypi/mamba-runner/)
 
 How fast are your unittest tests? Time it and make it faster!
 
